@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GooTableViewCell.h
 //  GooDemo
 //
 //  Created by yejunyou on 2018/5/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GooTableViewCell : UITableViewCell
 
 @end
-

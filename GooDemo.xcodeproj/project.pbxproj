@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		758248DD20BBF46400138B6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 758248DC20BBF46400138B6E /* AppDelegate.m */; };
-		758248E020BBF46400138B6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758248DF20BBF46400138B6E /* ViewController.m */; };
 		758248E320BBF46400138B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758248E120BBF46400138B6E /* Main.storyboard */; };
 		758248E520BBF46400138B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758248E420BBF46400138B6E /* Assets.xcassets */; };
 		758248E820BBF46400138B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758248E620BBF46400138B6E /* LaunchScreen.storyboard */; };
 		758248EB20BBF46400138B6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758248EA20BBF46400138B6E /* main.m */; };
+		758248F320BBF64B00138B6E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758248F220BBF64B00138B6E /* TableViewController.m */; };
+		758248F620BBF72D00138B6E /* GooView.m in Sources */ = {isa = PBXBuildFile; fileRef = 758248F520BBF72D00138B6E /* GooView.m */; };
+		758248FD20BBFEB700138B6E /* GooTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 758248FB20BBFEB700138B6E /* GooTableViewCell.m */; };
+		758248FE20BBFEB700138B6E /* GooTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758248FC20BBFEB700138B6E /* GooTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		758248D820BBF46400138B6E /* GooDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758248DB20BBF46400138B6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		758248DC20BBF46400138B6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		758248DE20BBF46400138B6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		758248DF20BBF46400138B6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		758248E220BBF46400138B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		758248E420BBF46400138B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		758248E720BBF46400138B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		758248E920BBF46400138B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		758248EA20BBF46400138B6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		758248F120BBF64B00138B6E /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		758248F220BBF64B00138B6E /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		758248F420BBF72D00138B6E /* GooView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GooView.h; sourceTree = "<group>"; };
+		758248F520BBF72D00138B6E /* GooView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooView.m; sourceTree = "<group>"; };
+		758248FA20BBFEB700138B6E /* GooTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GooTableViewCell.h; sourceTree = "<group>"; };
+		758248FB20BBFEB700138B6E /* GooTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooTableViewCell.m; sourceTree = "<group>"; };
+		758248FC20BBFEB700138B6E /* GooTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GooTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,13 @@
 			children = (
 				758248DB20BBF46400138B6E /* AppDelegate.h */,
 				758248DC20BBF46400138B6E /* AppDelegate.m */,
-				758248DE20BBF46400138B6E /* ViewController.h */,
-				758248DF20BBF46400138B6E /* ViewController.m */,
+				758248F120BBF64B00138B6E /* TableViewController.h */,
+				758248F220BBF64B00138B6E /* TableViewController.m */,
+				758248F420BBF72D00138B6E /* GooView.h */,
+				758248F520BBF72D00138B6E /* GooView.m */,
+				758248FA20BBFEB700138B6E /* GooTableViewCell.h */,
+				758248FB20BBFEB700138B6E /* GooTableViewCell.m */,
+				758248FC20BBFEB700138B6E /* GooTableViewCell.xib */,
 				758248E120BBF46400138B6E /* Main.storyboard */,
 				758248E420BBF46400138B6E /* Assets.xcassets */,
 				758248E620BBF46400138B6E /* LaunchScreen.storyboard */,
@@ -130,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				758248E820BBF46400138B6E /* LaunchScreen.storyboard in Resources */,
+				758248FE20BBFEB700138B6E /* GooTableViewCell.xib in Resources */,
 				758248E520BBF46400138B6E /* Assets.xcassets in Resources */,
 				758248E320BBF46400138B6E /* Main.storyboard in Resources */,
 			);
@@ -142,8 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				758248E020BBF46400138B6E /* ViewController.m in Sources */,
+				758248F620BBF72D00138B6E /* GooView.m in Sources */,
+				758248FD20BBFEB700138B6E /* GooTableViewCell.m in Sources */,
 				758248EB20BBF46400138B6E /* main.m in Sources */,
+				758248F320BBF64B00138B6E /* TableViewController.m in Sources */,
 				758248DD20BBF46400138B6E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
